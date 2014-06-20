@@ -1,20 +1,17 @@
 ---
-layout: default
+layout: site_layout
+home_page: true
 ---
 
-<div class="home">
-
-  <h1>Posts</h1>
-
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<h1>Hi my name is Alex Codreanu.</h1>
+<h2>About this site:</h2>
+<h3>This website is still under construction. To get a taste of projects I have built or that I have participated in building please go to the <a href="portfolio/index.html">portfolio</a> page.</h3>
+<h2>About me:</h2>
+<h3>I am a recent DevBootcamp graduate that is excited to get an opportunity to build meaningful things and in the same time grow as a developer. </h3>
+<hr>
+<h2>This picture is a tribute to the moment I first started wondering how machines can proccess the push of a button and produce a response from that action (at that time the question sounded a bit different in my head but this was the main idea):</h2>
+<img class="picture" src="{{ "/pictures/super_mario.jpg" | prepend: site.baseurl }}"/>
+<div id="contact">
+  <h3>Feel free to contact me on: <a class="contact-link" href="http://facebook.com/alex.codreanu.9"><i class="fa fa-facebook-square fa-3x"></i></a> <a class="contact-link" href="https://www.linkedin.com/in/alexandrucodreanu"><i class="fa fa-linkedin fa-3x"></i></a> <a class="contact-link" href="https://twitter.com/alexcodreanu86"><i class="fa fa-twitter fa-3x"></i></a></h3>
 </div>
+<h3>You can also checkout some of my work that may not be listed here or is in progress on github: <a class="contact-link" href="https://github.com/alexcodreanu86"><i class="fa fa-github fa-3x"></i></a> </h3>
