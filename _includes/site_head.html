@@ -1,6 +1,20 @@
 <head>
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <link rel="stylesheet" type="text/css" href="{{ "/css/normalize.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" type="text/css" href="{{ "/css/fa/font-awesome.min.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" type="text/css" href="{{ "/css/styles.css" | prepend: site.baseurl }}">
+  {% if page.memory_game %}
+
+    <link rel="stylesheet" type="text/css" href="{{ "/css/memory_game.css" | prepend: site.baseurl }}">
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+    <script src="{{ "/scripts/memory_game.js" | prepend: site.baseurl }}"></script>
+
+  {% elsif page.tic_tac_toe %}
+
+    <link rel="stylesheet" href="{{ "/css/tic_tac_toe.css" | prepend: site.baseurl }}">
+    <script type="text/javascript" src="{{ "/scripts/tic_tac_toe.js" | prepend: site.baseurl }}"></script>
+
+  {% endif %}
 </head>
