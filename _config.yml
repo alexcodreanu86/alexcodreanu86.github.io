@@ -1,9 +1,10 @@
 # Site settings
-title: My awesome title
-email: your-email@domain.com
+title: My Awesome Website
+email: alexcodreanu86@gmail.com
 description: "Alex Codreanu's personal website. Web developer and constant learner."
 baseurl: ""
 url: "http://yourdomain.com"
+github_url: "http://github.com/alexcodreanu86"
 
 # Build settings
 markdown: kramdown
