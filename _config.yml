@@ -3,8 +3,9 @@ title: My Awesome Website
 email: alexcodreanu86@gmail.com
 description: "Alex Codreanu's personal website. Web developer and constant learner."
 baseurl: ""
-url: "http://yourdomain.com"
+url: "http://alexcodreanu.com"
 github_url: "http://github.com/alexcodreanu86"
+username: alexcodreanu86
 
 # Build settings
 markdown: kramdown

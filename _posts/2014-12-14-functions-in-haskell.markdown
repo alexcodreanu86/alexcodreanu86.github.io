@@ -2,7 +2,7 @@
 layout: post
 title:  Functions in Haskell
 date:   2014-12-14 12:15
-categories: teaching myself how to learn
+categories: learning Haskell
 ---
 
 So recently I started learning [Haskell](https://www.haskell.org/) and one of the most interesting things
@@ -115,7 +115,7 @@ So now if we look at the signature of the function and the function definition w
 
 {% highlight haskell %}
 addNumbers :: Int -> (Int -> (Int -> Int))
---                 1       2       3
+--                #1      #2      #3
 {% endhighlight %}
 
 So let's interpret each arrow or lambda:
@@ -126,21 +126,27 @@ So let's interpret each arrow or lambda:
 
 This is also why the signature for the return of any function doesn't really stand out from the signature for the args.
 
-In the case of `addNumbers`:
+Let's take a look at the function definition:
 
 - `lambda #1` takes an argument named `x` and returns `lambda #2`
 - `lambda #2` takes an argument named `y` and returns `lambda #3`
-- `lambda #3` takes an argument named `z` the sum of `x y z` which is of type `Int`
+- `lambda #3` takes an argument named `z` and returns the sum of `x y z` which is of type `Int`
 
+{% highlight haskell %}
+addNumbers =  \x  ->  (\y ->  (\z -> x + y + z))
+--                #1      #2      #3
+{% endhighlight %}
+
+This is what is actually happening when you declare a function that takes multiple arguments.
 Now when you will hear that all the functions in Haskell actually take just one argument you will know what it actually means. Functions with multiple arguments in their
 definitions are just syntactic sugar that Haskell translates into nested code blocks that each take one argument with the deepest one actually calculating the return value.
 As we saw in our case the body of the deepest block was `x + y + z` just like the body of the function defined in the beginning.
 
 I hope that this is going to be helpful to anyone that is trying to understand how functions work in Haskell. While it's an amazing language, it does tend to be
-intimidating in the beginning of the journey because of the different aproach one needs to take in order to understand some concepts. Also writting function definitions should be
-less intimidating now.
+intimidating in the beginning of the journey because of the different aproach one needs to take in order to understand some concepts. I also hope that writting function
+type signatures will be less intimidating from now on.
 
 ###Resources:
 
-- [Learn You a Haskell for Great Good](http://learnyouahaskell.com/)
+- [Learn You a Haskell for Great Good!](http://learnyouahaskell.com/)
 - [Real World Haskell](http://book.realworldhaskell.org/)
