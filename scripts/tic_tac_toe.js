@@ -138,12 +138,12 @@ function Controller() {
 
 var winningPossibilities = [
   [0, 1, 2],
-  [3, 4, 5], 
-  [6, 7, 8], 
-  [0, 3, 6], 
-  [1, 4, 7], 
-  [2, 5, 8], 
-  [0, 4, 8], 
+  [3, 4, 5],
+  [6, 7, 8],
+  [0, 3, 6],
+  [1, 4, 7],
+  [2, 5, 8],
+  [0, 4, 8],
   [2, 4, 6]
 ];
 
@@ -294,7 +294,7 @@ function View(){
       message = "<h1>This is unbelievable, You have won!</h1><p>Cheating is part of the game too... click Reset to try and win fair and square this time!</p>"
     } else {
       message = "<h1>This is unbelievable, You lost!!!</h1><p>Click Reset to try again</p>"
-    } 
+    }
     document.getElementById('game-over').innerHTML = message;
     var elements = document.getElementsByClassName('cell')
     for(var i = 0; i < elements.length; i++){
