@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7d6ccc6ae1c89417483fa1d4006ba48c",
+    "revision": "8a0a73fa427d1f5e8c93b7c2217c0443",
     "url": "/static/my-apnea/index.html"
   },
   {
-    "revision": "63561efa90a266442d86",
+    "revision": "f297f3879074859975c5",
     "url": "/static/my-apnea/static/css/main.3e820706.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/my-apnea/static/js/2.89964905.chunk.js"
   },
   {
-    "revision": "63561efa90a266442d86",
-    "url": "/static/my-apnea/static/js/main.de8d945b.chunk.js"
+    "revision": "f297f3879074859975c5",
+    "url": "/static/my-apnea/static/js/main.c70a6d07.chunk.js"
   },
   {
     "revision": "ef759ef35e15cbc5e2c8",
