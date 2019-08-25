@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/static/my-apnea/precache-manifest.e6842383706f7bff3e0b9274862b4854.js"
+  "/static/my-apnea/precache-manifest.3808d447aa5b6a3ecaa305e819a58c0c.js"
 );
 
 self.addEventListener('message', (event) => {
