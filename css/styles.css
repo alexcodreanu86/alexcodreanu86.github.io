@@ -45,9 +45,19 @@ right: 0;
 }
 
 
-.wrapper {
+.content-wrapper, .wrapper {
   width: 80%;
   margin: 0 auto;
+}
+
+.content-wrapper {
+  height: 80vh;
+}
+
+.inner-container {
+  margin-top: 65px;
+  height: 100%;
+  width: 100%;
 }
 
 .picture{

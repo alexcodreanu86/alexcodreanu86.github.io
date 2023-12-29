@@ -8,6 +8,18 @@
 
 html, body { height: 100%; }
 
+.wraper {
+  max-width: 100% !important;
+  width: auto !important;
+  height: auto !important;
+}
+
+#my-hiit-container {
+  max-width: 100% !important;
+  width: auto !important;
+  height: auto !important;
+}
+
 body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -343,10 +355,22 @@ a:visited { color: #205caa; }
     clear: both;
   }
 
+
+  #my-hiit-container {
+    max-width: 100% !important;
+    width: auto !important;
+    height: auto !important;
+  }
+
 }
 
 @media screen and (max-width: 600px) {
 
+  #my-hiit-container {
+    max-width: 100% !important;
+    width: auto !important;
+    height: auto !important;
+  }
   .wrap { padding: 0 12px; }
 
   .site-nav {
