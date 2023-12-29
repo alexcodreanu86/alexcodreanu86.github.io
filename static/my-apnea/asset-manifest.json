@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "/static/my-apnea/static/css/main.3e820706.chunk.css",
-    "main.js": "/static/my-apnea/static/js/main.c70a6d07.chunk.js",
-    "main.js.map": "/static/my-apnea/static/js/main.c70a6d07.chunk.js.map",
-    "runtime~main.js": "/static/my-apnea/static/js/runtime~main.099cf33b.js",
-    "runtime~main.js.map": "/static/my-apnea/static/js/runtime~main.099cf33b.js.map",
-    "static/js/2.89964905.chunk.js": "/static/my-apnea/static/js/2.89964905.chunk.js",
-    "static/js/2.89964905.chunk.js.map": "/static/my-apnea/static/js/2.89964905.chunk.js.map",
+    "main.css": "/static/my-apnea/static/css/main.47d85e1a.css",
+    "main.js": "/static/my-apnea/static/js/main.9237698a.js",
     "index.html": "/static/my-apnea/index.html",
-    "precache-manifest.a78407f26e85d6e9c1c82773be69dbf4.js": "/static/my-apnea/precache-manifest.a78407f26e85d6e9c1c82773be69dbf4.js",
-    "service-worker.js": "/static/my-apnea/service-worker.js",
-    "static/css/main.3e820706.chunk.css.map": "/static/my-apnea/static/css/main.3e820706.chunk.css.map"
-  }
+    "main.47d85e1a.css.map": "/static/my-apnea/static/css/main.47d85e1a.css.map",
+    "main.9237698a.js.map": "/static/my-apnea/static/js/main.9237698a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47d85e1a.css",
+    "static/js/main.9237698a.js"
+  ]
 }
