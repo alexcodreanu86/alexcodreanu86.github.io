@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/my-hiit/static/css/main.47d85e1a.css",
-    "main.js": "/static/my-hiit/static/js/main.f4464105.js",
+    "main.css": "/static/my-hiit/static/css/main.adec640c.css",
+    "main.js": "/static/my-hiit/static/js/main.b1a3f95a.js",
     "index.html": "/static/my-hiit/index.html",
-    "main.47d85e1a.css.map": "/static/my-hiit/static/css/main.47d85e1a.css.map",
-    "main.f4464105.js.map": "/static/my-hiit/static/js/main.f4464105.js.map"
+    "main.adec640c.css.map": "/static/my-hiit/static/css/main.adec640c.css.map",
+    "main.b1a3f95a.js.map": "/static/my-hiit/static/js/main.b1a3f95a.js.map"
   },
   "entrypoints": [
-    "static/css/main.47d85e1a.css",
-    "static/js/main.f4464105.js"
+    "static/css/main.adec640c.css",
+    "static/js/main.b1a3f95a.js"
   ]
 }
