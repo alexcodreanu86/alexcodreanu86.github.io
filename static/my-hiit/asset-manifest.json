@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/my-hiit/static/css/main.adec640c.css",
-    "main.js": "/static/my-hiit/static/js/main.b1a3f95a.js",
+    "main.js": "/static/my-hiit/static/js/main.40895ca9.js",
     "index.html": "/static/my-hiit/index.html",
     "main.adec640c.css.map": "/static/my-hiit/static/css/main.adec640c.css.map",
-    "main.b1a3f95a.js.map": "/static/my-hiit/static/js/main.b1a3f95a.js.map"
+    "main.40895ca9.js.map": "/static/my-hiit/static/js/main.40895ca9.js.map"
   },
   "entrypoints": [
     "static/css/main.adec640c.css",
-    "static/js/main.b1a3f95a.js"
+    "static/js/main.40895ca9.js"
   ]
 }
